@@ -67,7 +67,7 @@ pipeline {
             }
             steps {
                 sh """
-                    sp1-tk3
+                    sp1-tk4
                     terraform destroy -auto-approve
                 """
             }
